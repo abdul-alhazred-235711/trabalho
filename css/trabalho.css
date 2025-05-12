@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+    box-sizing: inherit
+}
+.cabecalho {
+    background-image: url(../imagens/imagem1.png) ;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+    
+    
+}
+.cadastro {
+    float : right;
+    padding: 20px 10px 0px 20px;
+}
+.logo{
+    
+    padding: 20px 10px 0px 20px;
+}
+.paragrafo1{
+    width: 100%;
+    margin: 180px 20px 10px 30px;
+    text-align: left;
+    font-size: 12px;
+    
+
+}
+.esquerda {
+    float: left;
+    width: 25%; /* ou o valor desejado */
+}
+
+.direita1 {
+    float: right;
+    width: 20%; /* ou o valor desejado */
+    margin: 100px 50px 0 0;
+    
+}
+.direita2 {
+    float: right;
+    width: 20%; /* ou o valor desejado */
+    margin: 100px 5px 0 0;
+    
+}
+.direita3 {
+    float: right;
+    width: 20%; /* ou o valor desejado */
+    margin: 100px 10px 0 0;
+    
+}
+
+/* Limpar os floats após o container */
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 100px 0 0 0;
+}

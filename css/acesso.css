@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    box-sizing: inherit
+}
+
+.cadastro{
+
+
+position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    background-color: white;
+}
+
+
+
+body{
+    background-image: url(../imagens/fundo_ubs.jfif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    height: 100vh;
+}
