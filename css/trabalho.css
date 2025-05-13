@@ -51,16 +51,16 @@ section > .icons > .botao-menu > img:hover{
 }
 
 
-
 .cabecalho {
     background-image: url(../imagens/imagem1.png) ;
     width: 100%;
     text-align: center;
     color: white;
-    padding: 20px 0;
-    
-    
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
+
 .cadastro {
     float : right;
     padding: 20px 10px 0px 20px;
