@@ -1,0 +1,65 @@
+
+
+
+html {
+    box-sizing: border-box;
+    box-sizing: inherit
+}
+
+.CriarConta{
+    text-align: left;
+    margin: 150px 0 0 145px;
+    padding: 20px;
+    background-color: white;
+    font-size: 12px;
+    border: 0 0 0 0;
+    width: 350px;
+    border-radius: 10px;
+
+}
+body{
+    background-image: url(..//imagens/BackgroundMeio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.borda{
+    width: 95%;
+    padding: 5px 2px 5px 3px;
+    outline: none;
+    border-radius: 5px; /* Arredonda os cantos */
+    border: solid 1px #d3d7dd;
+}
+.button{
+    width: 300px;
+    border-radius: 10px; /* Arredonda os cantos */
+    background-color: rgb(67, 117, 175);
+    color: white;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
+}
+
+.bloco{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.coluna{
+    flex-direction: column;
+    width: 100%;
+    text-align: left;
+}

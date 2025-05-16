@@ -22,9 +22,25 @@ body{
      width: 300px;
      border-radius: 10px; /* Arredonda os cantos */
 }
-.botao{
+.button{
     width: 300px;
     border-radius: 10px; /* Arredonda os cantos */
     background-color: rgb(67, 117, 175);
     color: white;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2980b9;
 }

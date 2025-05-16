@@ -1,0 +1,18 @@
+.bloco {
+        
+        display: flex;
+        flex-wrap: wrap; /* Permite que as imagens quebrem linha em telas menores */
+        gap: 10px; /* Espaçamento entre imagens (opcional) */
+    }
+
+    .coluna img {
+        max-width: 300px; /* Ajuste conforme necessário */
+        height: 200px;
+        margin: 0 0 0 50px;
+    }
+    body{
+        align-items: center;
+        background-image: url(..//imagens/ubs_morato.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
